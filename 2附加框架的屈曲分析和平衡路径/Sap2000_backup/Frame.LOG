@@ -1,0 +1,65 @@
+
+
+ SAP2000 v15.1.0 Ultimate (Analysis Build 9024/32)
+ File: C:\Users\lyoshi\Documen...2附加框架的屈曲分析和平衡路径\Sap2000\Frame.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2018/04/02  18:23:12
+
+
+ RUNNING ANALYSIS WITHIN THE GUI PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =          11
+    WITH RESTRAINTS                        =           2
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =          10
+ NUMBER OF LOAD PATTERNS                   =           1
+ NUMBER OF ACCELERATION LOADS              =           6
+ NUMBER OF LOAD CASES                      =           1
+
+
+ E L E M E N T   F O R M A T I O N                                      18:23:12
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        18:23:12
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =          29
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =         134
+
+ NUMBER OF EIGENVALUES BELOW SHIFT         =           0
+
+
+ L I N E A R   B U C K L I N G   A N A L Y S I S                        18:23:12
+
+ CASE: BUCK1
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =          29
+ NUMBER OF BUCKLING MODES SOUGHT           =           6
+ NUMBER OF SUBSPACE VECTORS USED           =          24
+
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+
+ Iteration  Approximations to next lowest eigenvalues...
+         1  2.087438840E+05  6.672576386E+05  1.410380785E+06  2.469335435E+06
+         2  2.087438840E+05  6.672576386E+05  1.410380785E+06  2.469335435E+06
+
+     Found mode       1 of       6,  Eigenvalue =   2.087438840E+05
+     Found mode       2 of       6,  Eigenvalue =   6.672576386E+05
+     Found mode       3 of       6,  Eigenvalue =   1.410380785E+06
+     Found mode       4 of       6,  Eigenvalue =   2.469335435E+06
+     Found mode       5 of       6,  Eigenvalue =   4.651279388E+06
+     Found mode       6 of       6,  Eigenvalue =   6.583950489E+06
+
+ NUMBER OF BUCKLING MODES FOUND            =           6
+ NUMBER OF ITERATIONS PERFORMED            =           2
+
+
+ A N A L Y S I S   C O M P L E T E                          2018/04/02  18:23:12
