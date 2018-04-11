@@ -1,12 +1,12 @@
   RespType: Case     ,  File: .Y00,  Records:                     0
                  16808
   RespType: Displ    ,  File: .Y01,  Records:                     0
-                  7392
+                 24288
   RespType: React    ,  File: .Y03,  Records:                     0
-                  7392
+                 24288
   RespType: Frame    ,  File: .Y04,  Records:                     0
-                130480
+                428720
   RespType: Spring   ,  File: .Y02,  Records:                     0
-                  1848
+                  6072
   RespType: StrainAge,  File: .Y05,  Records:                     0
-                  2240
+                  7360

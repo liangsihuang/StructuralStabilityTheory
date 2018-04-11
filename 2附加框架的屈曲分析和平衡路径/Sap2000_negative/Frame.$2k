@@ -23,7 +23,7 @@ TABLE:  "CASE - STATIC 1 - LOAD ASSIGNMENTS"
    Case=NLSTAT1   LoadType="Load pattern"   LoadName=DEAD   LoadSF=1
  
 TABLE:  "CASE - STATIC 2 - NONLINEAR LOAD APPLICATION"
-   Case=NLSTAT1   LoadApp="Displ Ctrl"   DisplType=Monitored   TargetDispl=100   MonitorDOF=U1   MonitorJt=4
+   Case=NLSTAT1   LoadApp="Displ Ctrl"   DisplType=Monitored   TargetDispl=1000   MonitorDOF=U1   MonitorJt=4
  
 TABLE:  "CASE - STATIC 4 - NONLINEAR PARAMETERS"
    Case=NLSTAT1   GeoNonLin="Large Displ"   ResultsSave="Multiple States"   MinNumState=10   MaxNumState=100   PosIncOnly=Yes   MaxTotal=200   MaxNull=50   UseEvStep=Yes   EvLumpTol=0.01   MaxIterCS=10   MaxIterNR=40   ItConvTol=0.0001 _
@@ -162,16 +162,16 @@ TABLE:  "GROUPS 1 - DEFINITIONS"
    GroupName=ALL   Selection=Yes   SectionCut=Yes   Steel=Yes   Concrete=Yes   Aluminum=Yes   ColdFormed=Yes   Stage=Yes   Bridge=Yes   AutoSeismic=No   AutoWind=No   SelDesSteel=No   SelDesAlum=No   SelDesCold=No   MassWeight=Yes   Color=Red
  
 TABLE:  "JOINT COORDINATES"
-   Joint=1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=0   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=0   SModeCase=BUCK1   SModeNumber=1   SModeDispl=-5   ModCSys=GLOBAL   ModDirX=Yes   ModDirY=Yes   ModDirZ=Yes
-   Joint=2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3.23780538321235   Y=0   Z=999.99957156004   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=1000
-   Joint=3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.99999992657568   Y=0   Z=1999.99914312008   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=2000
-   Joint=4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.59290387822218   Y=0   Z=2999.99871468012   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=3000
-   Joint=5   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.47235178010832   Y=0   Z=3999.99828624016   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=4000
-   Joint=6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.00214422934249243   Y=0   Z=4999.9978578002   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=5000
-   Joint=7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1000.00171538347   Y=0   Z=5001.49942809408   SpecialJt=No   OriginalGX=1000   OriginalGY=0   OriginalGZ=5000
-   Joint=8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2000.00128653761   Y=0   Z=5002.00019742074   SpecialJt=No   OriginalGX=2000   OriginalGY=0   OriginalGZ=5000
-   Joint=9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3000.00085769174   Y=0   Z=5001.75041568648   SpecialJt=No   OriginalGX=3000   OriginalGY=0   OriginalGZ=5000
-   Joint=10   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4000.00042884587   Y=0   Z=5001.00029022723   SpecialJt=No   OriginalGX=4000   OriginalGY=0   OriginalGZ=5000
+   Joint=1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=0   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=0   SModeCase=BUCK1   SModeNumber=1   SModeDispl=-20   ModCSys=GLOBAL   ModDirX=Yes   ModDirY=Yes   ModDirZ=Yes
+   Joint=2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=12.9512215328494   Y=0   Z=999.998286240159   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=1000
+   Joint=3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19.9999997063027   Y=0   Z=1999.99657248032   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=2000
+   Joint=4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18.3716155128887   Y=0   Z=2999.99485872048   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=3000
+   Joint=5   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9.88940712043328   Y=0   Z=3999.99314496064   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=4000
+   Joint=6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.00857691736996973   Y=0   Z=4999.9914312008   SpecialJt=No   OriginalGX=0   OriginalGY=0   OriginalGZ=5000
+   Joint=7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1000.0068615339   Y=0   Z=5005.9977123763   SpecialJt=No   OriginalGX=1000   OriginalGY=0   OriginalGZ=5000
+   Joint=8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2000.00514615042   Y=0   Z=5008.00078968295   SpecialJt=No   OriginalGX=2000   OriginalGY=0   OriginalGZ=5000
+   Joint=9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3000.00343076695   Y=0   Z=5007.00166274591   SpecialJt=No   OriginalGX=3000   OriginalGY=0   OriginalGZ=5000
+   Joint=10   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4000.00171538347   Y=0   Z=5004.0011609089   SpecialJt=No   OriginalGX=4000   OriginalGY=0   OriginalGZ=5000
    Joint=11   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5000   Y=0   Z=5000   SpecialJt=No   OriginalGX=5000   OriginalGY=0   OriginalGZ=5000
  
 TABLE:  "JOINT LOADS - FORCE"

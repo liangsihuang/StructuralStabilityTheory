@@ -23,7 +23,7 @@ TABLE:  "CASE - STATIC 1 - LOAD ASSIGNMENTS"
    Case=NLSTAT1   LoadType="Load pattern"   LoadName=DEAD   LoadSF=1
  
 TABLE:  "CASE - STATIC 2 - NONLINEAR LOAD APPLICATION"
-   Case=NLSTAT1   LoadApp="Displ Ctrl"   DisplType=Monitored   TargetDispl=100   MonitorDOF=U1   MonitorJt=4
+   Case=NLSTAT1   LoadApp="Displ Ctrl"   DisplType=Monitored   TargetDispl=1000   MonitorDOF=U1   MonitorJt=4
  
 TABLE:  "CASE - STATIC 4 - NONLINEAR PARAMETERS"
    Case=NLSTAT1   GeoNonLin="Large Displ"   ResultsSave="Multiple States"   MinNumState=10   MaxNumState=100   PosIncOnly=Yes   MaxTotal=200   MaxNull=50   UseEvStep=Yes   EvLumpTol=0.01   MaxIterCS=10   MaxIterNR=40   ItConvTol=0.0001 _
@@ -306,6 +306,12 @@ TABLE:  "PROJECT INFORMATION"
    Item=Supervisor
    Item="Issue Code"
    Item="Design Code"
+ 
+TABLE:  "PUSHOVER PARAMETERS - AXIS DATA"
+   PlotType=Force-Displ   ParamName=VDPO1   DisplMin=0   DisplMax=0   ForceMin=0   ForceMax=0   HorizLabel=Displacement   VertLabel="Base Reaction"
+ 
+TABLE:  "PUSHOVER PARAMETERS - FORCE DISPLACEMENT"
+   ParamName=VDPO1   CapColor=Green
  
 TABLE:  "REBAR SIZES"
    RebarID=#2   Area=32.258   Diameter=6.35
