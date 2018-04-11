@@ -1,12 +1,12 @@
 
 
- SAP2000 v15.1.0 Ultimate (Analysis Build 9024/32)
- File: C:\Users\lyoshi\Documen...2附加框架的屈曲分析和平衡路径\Sap2000\Frame.LOG
+ SAP2000 v18.2.0 Ultimate 64-bit (Analysis Build 9503/64)
+ File: C:\Users\lyoshi\Documen...架的屈曲分析和平衡路径\Sap2000_backup\Frame.LOG
 
 
 
 
- B E G I N   A N A L Y S I S                                2018/04/02  18:23:12
+ B E G I N   A N A L Y S I S                                2016/12/01  00:40:04
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
@@ -16,25 +16,43 @@
     WITH RESTRAINTS                        =           2
  NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =          10
  NUMBER OF LOAD PATTERNS                   =           1
- NUMBER OF ACCELERATION LOADS              =           6
+ NUMBER OF ACCELERATION LOADS              =           9
  NUMBER OF LOAD CASES                      =           1
 
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =       3.822 GB
 
- E L E M E N T   F O R M A T I O N                                      18:23:12
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           2
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           2
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           2
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           2
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
+
+
+ E L E M E N T   F O R M A T I O N                                      00:40:04
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        18:23:12
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        00:40:04
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
  TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =          29
  NUMBER OF NON-ZERO STIFFNESS TERMS        =         134
 
- NUMBER OF EIGENVALUES BELOW SHIFT         =           0
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
 
 
- L I N E A R   B U C K L I N G   A N A L Y S I S                        18:23:12
+ L I N E A R   B U C K L I N G   A N A L Y S I S                        00:40:04
 
  CASE: BUCK1
 
@@ -62,4 +80,4 @@
  NUMBER OF ITERATIONS PERFORMED            =           2
 
 
- A N A L Y S I S   C O M P L E T E                          2018/04/02  18:23:12
+ A N A L Y S I S   C O M P L E T E                          2016/12/01  00:40:04
