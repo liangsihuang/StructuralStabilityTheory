@@ -1,0 +1,103 @@
+
+
+ SAP2000 v18.2.0 Ultimate 64-bit (Analysis Build 9503/64)
+ File: C:\Users\lyoshi\Documen...¤FopplRapkovich×¼Ôò\Sap2000_WebRigid\Column.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2016/12/01  00:10:33
+
+
+ RUNNING ANALYSIS WITHIN THE GUI PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =          13
+    WITH RESTRAINTS                        =           2
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =          23
+ NUMBER OF LOAD PATTERNS                   =           1
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =           1
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =       3.822 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           2
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           2
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           2
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           2
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
+
+
+ E L E M E N T   F O R M A T I O N                                      00:10:33
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        00:10:33
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =          36
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =         259
+
+ * * * W A R N I N G * * *
+ THE STRUCTURE IS UNSTABLE OR ILL-CONDITIONED !!
+ CHECK THE STRUCTURE CAREFULLY FOR:
+ - INADEQUATE SUPPORT CONDITIONS, OR
+ - ONE OR MORE INTERNAL MECHANISMS, OR
+ - ZERO OR NEGATIVE STIFFNESS PROPERTIES, OR
+ - EXTREMELY LARGE STIFFNESS PROPERTIES, OR
+ - BUCKLING DUE TO P-DELTA OR GEOMETRIC NONLINEARITY, OR
+ - A FREQUENCY SHIFT (IF ANY) ONTO A NATURAL FREQUENCY
+
+ TO OBTAIN FURTHER INFORMATION:
+ - USE THE STANDARD SOLVER, OR
+ - RUN AN EIGEN ANALYSIS USING AUTO FREQUENCY SHIFTING (WITH
+   ADDITIONAL MASS IF NEEDED) AND INVESTIGATE THE MODE SHAPES
+
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   B U C K L I N G   A N A L Y S I S                        00:10:33
+
+ CASE: BUCK1
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =          36
+ NUMBER OF BUCKLING MODES SOUGHT           =          10
+ NUMBER OF SUBSPACE VECTORS USED           =          24
+
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+
+ Iteration  Approximations to next lowest eigenvalues...
+         1  1.661020513E+07  7.200604947E+07  1.871445344E+08  4.174970162E+08
+         2  1.661020513E+07  7.200604947E+07  1.871445344E+08  4.174970162E+08
+
+     Found mode       1 of      10,  Eigenvalue =   1.661020513E+07
+     Found mode       2 of      10,  Eigenvalue =   7.200604947E+07
+     Found mode       3 of      10,  Eigenvalue =   1.871445344E+08
+     Found mode       4 of      10,  Eigenvalue =   4.174970162E+08
+     Found mode       5 of      10,  Eigenvalue =   9.211530335E+08
+     Found mode       6 of      10,  Eigenvalue =   2.060997517E+09
+     Found mode       7 of      10,  Eigenvalue =   2.571082001E+09
+     Found mode       8 of      10,  Eigenvalue =   3.116406513E+09
+     Found mode       9 of      10,  Eigenvalue =   1.102298561E+10
+     Found mode      10 of      10,  Eigenvalue =   1.127437251E+10
+
+ NUMBER OF BUCKLING MODES FOUND            =          10
+ NUMBER OF ITERATIONS PERFORMED            =           2
+
+
+ A N A L Y S I S   C O M P L E T E                          2016/12/01  00:10:33
