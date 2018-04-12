@@ -30,7 +30,7 @@ displacement2=data{1};
 load2=data{2};
 %作图
 hold on
-plot(displacement2,load2);
+plot(displacement2,load2,'r');
 
 % %3读取数据，初始位移缺陷-10mm
 % [fileID,message]=fopen('load_disp-10mm.txt','r');  %fileID是个非零的正数，读不出来为-1
