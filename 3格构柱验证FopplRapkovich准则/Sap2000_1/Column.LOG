@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2016/12/01  00:17:41
+ B E G I N   A N A L Y S I S                                2016/12/01  00:20:05
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
@@ -31,11 +31,11 @@
  NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
 
 
- E L E M E N T   F O R M A T I O N                                      00:17:41
+ E L E M E N T   F O R M A T I O N                                      00:20:05
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        00:17:41
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        00:20:05
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -68,7 +68,7 @@
  ---------------------------------
 
 
- L I N E A R   B U C K L I N G   A N A L Y S I S                        00:17:41
+ L I N E A R   B U C K L I N G   A N A L Y S I S                        00:20:05
 
  CASE: BUCK1
 
@@ -100,4 +100,4 @@
  NUMBER OF ITERATIONS PERFORMED            =           2
 
 
- A N A L Y S I S   C O M P L E T E                          2016/12/01  00:17:41
+ A N A L Y S I S   C O M P L E T E                          2016/12/01  00:20:05
