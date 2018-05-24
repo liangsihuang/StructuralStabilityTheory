@@ -1,0 +1,16 @@
+ SAP2000 v18.2.0 Ultimate 64-bit (Analysis Build 9503/64)                       
+ File: C:\Users\lyoshi\Documen...yTheory\5¹°µÄÎÈ¶¨\Sap2000_flatarch_0.2\arch.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+      13 TO      23    -   -   -       A    
+       1 TO       9    A       A       A    
