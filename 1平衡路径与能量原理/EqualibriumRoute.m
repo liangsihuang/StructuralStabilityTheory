@@ -15,6 +15,7 @@
 % plot(phy2,lambda2,'r');
 
 % 正式作业
+clc;clear;
 % 例题
 % 平衡路径就是处于平衡状态的荷载-位移曲线
 phy=-pi/2:0.01:pi/2;%转角
@@ -34,3 +35,7 @@ plot(phy2,lambda2,'r');
 xlabel('\theta');
 ylabel('\lambda');
 title('荷载-位移曲线');
+text(0.8,0.8,'不稳定的平衡路径 \lambda = cos \theta','Color','blue','FontSize',8);
+text(0.1,1.2,'不稳定的平衡路径','Color','blue','FontSize',8);
+text(-0.3,0.2,'稳定的平衡路径','Color','blue','FontSize',8);
+text(-0.7,0.6,'稳定临界面 \lambda =cos2\theta / cos \theta','Color','red','FontSize',8);
